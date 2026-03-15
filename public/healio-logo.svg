@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3bbfb6"/>
+      <stop offset="100%" stop-color="#23469e"/>
+    </linearGradient>
+    <linearGradient id="swooshGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#23469e"/>
+      <stop offset="60%" stop-color="#3bbfb6"/>
+      <stop offset="100%" stop-color="#5dded6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Left Box Icon -->
+  <rect x="20" y="15" width="110" height="110" rx="28" fill="url(#boxGrad)" />
+  
+  <!-- Inner circular loops (approximating the logo's inner arrows/rings) -->
+  <!-- Outer Ring -->
+  <circle cx="75" cy="70" r="32" stroke="white" stroke-width="4" fill="none" opacity="0.95" />
+  <!-- Inner Ring -->
+  <circle cx="75" cy="70" r="21" stroke="white" stroke-width="3" fill="none" opacity="0.95" />
+  
+  <!-- Small Hearts on the rings -->
+  <!-- Heart 1 (Left) -->
+  <g transform="translate(42, 63) scale(0.6)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="white"/>
+  </g>
+  <!-- Heart 2 (Right) -->
+  <g transform="translate(90, 58) scale(0.6)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="white"/>
+  </g>
+  <!-- Heart 3 (Bottom) -->
+  <g transform="translate(73, 90) scale(0.6)">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="white"/>
+  </g>
+
+  <!-- "Healio" Text -->
+  <text x="145" y="85" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="82" fill="#23469e" letter-spacing="-1.5">Healio</text>
+
+  <!-- Clean Swoosh Underneath -->
+  <!-- Top Swoosh -->
+  <path d="M135 102 Q 280 135 480 80 Q 350 115 135 102 Z" fill="url(#swooshGrad)" />
+  <!-- Bottom thinner swoosh accent -->
+  <path d="M135 112 Q 280 145 420 90 Q 320 125 135 112 Z" fill="url(#boxGrad)" opacity="0.85" />
+
+  <!-- "Healthcare Tech" Text -->
+  <text x="258" y="132" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="22" fill="#1b365d" letter-spacing="0.5">Healthcare Tech</text>
+</svg>
